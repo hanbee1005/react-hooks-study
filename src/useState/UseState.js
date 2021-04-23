@@ -9,9 +9,9 @@ const UseState = () => {
 
     return (
         <div className="App">
-        <h1>useState {item}</h1>
-        <button onClick={incrementItem}>+</button>
-        <button onClick={decrementItem}>-</button>
+            <h1>useState {item}</h1>
+            <button onClick={incrementItem}>+</button>
+            <button onClick={decrementItem}>-</button>
         </div>
     );
 };
