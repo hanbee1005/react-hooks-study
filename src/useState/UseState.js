@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import './UseState.css';
+import './style.css';
 
 const UseState = () => {
     const [item, setItem] = useState(1);
@@ -8,7 +8,7 @@ const UseState = () => {
     const decrementItem = () => setItem(item - 1);
 
     return (
-        <div className="UseState">
+        <div className="App">
         <h1>useState {item}</h1>
         <button onClick={incrementItem}>+</button>
         <button onClick={decrementItem}>-</button>
